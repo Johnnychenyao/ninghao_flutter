@@ -18,7 +18,7 @@ class _AlertDialogDemoState extends State<AlertDialogDemo> {
       barrierDismissible: false, //  不能点空白关闭
       builder: (BuildContext context){
         return AlertDialog(
-          title: Text('AlertDialog'),
+          title: Text('Alert Dialog Test brannch'),
           content: Text('Are you sure about this?'),
           actions: <Widget>[
             FlatButton(
