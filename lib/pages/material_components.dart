@@ -42,7 +42,7 @@ class MaterialComponents extends StatelessWidget {
         ListItem(title: 'Card - 卡片', page: CardDemo(),),
         ListItem(title: 'Stepper - 步骤', page: StepperDemo(),),
         ListItem(title: 'StateManagement- 状态管理小部件', page: StateManagementDemo(),),
-        ListItem(title: 'Stream', page: StreamDemo(),),
+        ListItem(title: 'Stream - 监听', page: StreamDemo(),),
       ],
     );
   }
