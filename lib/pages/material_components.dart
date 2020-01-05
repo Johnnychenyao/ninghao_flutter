@@ -15,6 +15,7 @@ import './material_demos/chip_demo.dart';
 import './material_demos/data_table_demo.dart';
 import './material_demos/paginated_data_table_demo.dart';
 import './material_demos/card_demo.dart';
+import './material_demos/stepper_demo.dart';
 
 class MaterialComponents extends StatelessWidget {
   @override
@@ -37,6 +38,7 @@ class MaterialComponents extends StatelessWidget {
         ListItem(title: 'DataTable - 数据表格', page: DataTableDemo(),),
         ListItem(title: 'PaginatedDataTable - 分页显示表格数据', page: PaginatedDataTableDemo(),),
         ListItem(title: 'Card - 卡片', page: CardDemo(),),
+        ListItem(title: 'Stepper - 步骤', page: StepperDemo(),),
       ],
     );
   }
