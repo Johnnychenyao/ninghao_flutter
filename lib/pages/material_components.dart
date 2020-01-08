@@ -19,6 +19,7 @@ import './material_demos/stepper_demo.dart';
 import './material_demos/state_management_demo.dart';
 import './material_demos/stream_demo.dart';
 import './rxdart/rxdart_demo.dart';
+import 'bloc/bloc_demo.dart';
 
 class MaterialComponents extends StatelessWidget {
   @override
@@ -45,6 +46,7 @@ class MaterialComponents extends StatelessWidget {
         ListItem(title: 'StateManagement- 状态管理小部件', page: StateManagementDemo(),),
         ListItem(title: 'Stream - 监听', page: StreamDemo(),),
         ListItem(title: 'Rxdart - 监听', page: RxdartDemo(),),
+        ListItem(title: 'Bloc - 监听', page: BlocDemo(),),
       ],
     );
   }
