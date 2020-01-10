@@ -19,7 +19,9 @@ import './material_demos/stepper_demo.dart';
 import './material_demos/state_management_demo.dart';
 import './material_demos/stream_demo.dart';
 import './rxdart/rxdart_demo.dart';
+import 'animation/animation_demo.dart';
 import 'bloc/bloc_demo.dart';
+import 'i18n/i18n_demo.dart';
 
 class MaterialComponents extends StatelessWidget {
   @override
@@ -47,6 +49,8 @@ class MaterialComponents extends StatelessWidget {
         ListItem(title: 'Stream - 监听', page: StreamDemo(),),
         ListItem(title: 'Rxdart - 监听', page: RxdartDemo(),),
         ListItem(title: 'Bloc - 监听', page: BlocDemo(),),
+        ListItem(title: 'Animation - 动画', page: AnimationDemo(),),
+        ListItem(title: 'I18n - 国际化', page: I18nDemo(),),
       ],
     );
   }
